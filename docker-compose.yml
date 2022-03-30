@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  levensverwachting:
+    image: levensverwachting
+    build:
+      context: .
+      dockerfile: ./Dockerfile
